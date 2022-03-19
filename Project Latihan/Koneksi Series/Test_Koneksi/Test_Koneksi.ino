@@ -9,13 +9,13 @@ WiFiClient espClient; //Constructor WiFiClient
 PubSubClient client(espClient); //Constructor PubSubClient
 
 //============================================================= Define Variabel =============================================================
-#define mqtt_server "i-ot.net" //Nama Platform IoT (Broker)
+#define mqtt_server " " //Nama Platform IoT (Broker)
 #define mqtt_port 1883 //Port I-ot.net
-#define mqtt_username "devancakra6@gmail.com" //Username I-ot.net
-#define mqtt_password "m00nrush311099" //Password I-ot.net
-#define BOTtoken "2130879110:AAEoY1qtnB3xcspCUjCYsUGImysau3N802U" //API bot telegram
-#define ssid "WIJAYA" //Nama wifi router
-#define password "iswari71" //Password wifi router
+#define mqtt_username " " //Username I-ot.net
+#define mqtt_password " " //Password I-ot.net
+#define BOTtoken " " //API bot telegram
+#define ssid " " //Nama wifi router
+#define password " " //Password wifi router
 
 //============================================================== Method Setup ===============================================================
 void setup(){
